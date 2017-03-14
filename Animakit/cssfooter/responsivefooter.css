@@ -1,0 +1,173 @@
+body {
+  margin:0;
+  padding:0;
+  font-family:'Lato', sans-serif;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-highlight: none;
+}
+
+p a {
+  color:#C8102E;
+  text-decoration:none;
+}
+
+a.bookmark {
+  position: relative;
+  display: block;
+  height: 0;
+  width:0;
+}
+
+
+
+p {
+  color:#fff;
+  font-weight:500;
+  font-size:100%;
+  line-height:19px;
+  padding:0;
+  margin:0px 0px 0px 0%;
+}
+/*responsive*/
+
+.nw {
+  white-space:nowrap;
+}
+
+.content-safe {
+  margin: 0 auto;
+  width:100%;
+}
+
+.clear-floats {
+  clear:both;
+  height:0px;
+  width:0px;
+}
+
+
+.main-header-section {
+  clear:both;
+  position:relative;
+}
+
+.main-header-banner {
+  position:absolute;
+  background-color:rgba(0, 165, 226, 0.75);
+  vertical-align:bottom;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+
+.main-headline {
+  font-size:60px;
+  font-weight:300;
+  color:#ffffff;
+  margin:0;
+  padding:20px 0px 0px 0px;
+}
+
+
+.main-blurb {
+  font-size:24px;
+  line-height:28px;
+  font-weight:300;
+  color:#ffffff;
+  margin:0;
+  padding:0px 200px 25px 0px;
+}
+
+/
+.secondary-header-section {
+  background-color:#adaaad;
+}
+
+.secondary-headline {
+  margin:0;
+  color:white;
+  font-size:48px;
+  font-weight:300;
+  padding:20px 0px 10px 0px;
+}
+
+.secondary-blurb {
+  color:white;
+  margin:0;
+  padding:0px 0px 30px 0px;
+  font-size:20px;
+  line-height:26px;
+}
+
+.secondary-photo {
+  clear:both;
+  position:relative;
+}
+
+
+.secondary-photo-swoosh {
+  position:absolute;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  height:240px;
+
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;  
+}
+
+.column1 {
+  float:left;
+  width:425px;
+  margin-right:50px;
+}
+
+.column2 {
+  float:left;
+  width:475px;
+}
+
+/* 600 */
+@media screen and (min-width:600px) and (max-width: 999px) {
+  .content-safe {
+    margin: 0 auto;
+    width:560px;
+  }
+  
+  h2 {
+    font-weight:400;
+    font-size:20px;
+  }
+  
+  p {
+    font-weight:500;
+    font-size:10px;
+    line-height:22px;
+  }
+  
+  
+}
+
+/* 320 */
+@media screen and (max-width: 599px) {
+  .content-safe {
+    margin: 0 auto;
+    width:300px;
+  }
+  
+  h2 {
+
+    font-weight:400;
+    font-size:24px;
+    line-height:24px;
+  }
+
+  p {
+
+    font-weight:500;
+    font-size:9px;
+    line-height:15px;
+ }
+ }

@@ -1,0 +1,358 @@
+@import url(https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Raleway);
+/* Footer */
+
+h5{
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 5%;
+}
+h6{
+  color: #fff;
+  font-size: 150%;
+  font-style: italic;
+  /*font-family: 'Raleway';*/
+
+}
+
+
+#footer{
+    background-image:url(../img/city_presse_comp2.jpg);
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+#footer h3 {
+  color:#fff;
+  font-size:130%;
+  font-weight:700;
+  padding-top:1%;
+  margin:0px 20px 10px 0px;
+}
+
+#footer a {
+  color:#fff;
+  font-size:100%;
+  line-height:22px;
+  font-weight:00;
+  text-decoration:none;
+  display:block;
+}
+
+
+.footer-group {
+  float:left;
+  margin:30px 3% 0px 0px;
+  padding-left: 4%;
+}
+.mapss {
+    padding-top: 0%;
+    position: inherit;
+    float: left;
+    margin: 90px 0px 0px 0px;
+
+}
+.langue-inter {
+    padding-top: 0%;
+    position: inherit;
+    float: left;
+    margin: 90px 0px 0px 30px;
+
+}
+
+
+
+#footer-logo {
+  background-image:url(../animakitstudios.com_logo.png);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  width:300px;
+  height:50px;
+  margin:0px 60px 10px -20px;
+}
+
+#footer-contact-us {
+  cursor:pointer;
+  background-image:url(../img/Contactus.png);;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  width:184px;
+  height:150px;
+  margin:0px 0px 10px 0px;
+}
+
+/* Social (facebook ect..)*/
+
+#footer i.fa {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    font-size: 30px;
+    padding: 3px 5px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s;
+    
+
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+
+#footer-facebook {
+  background-image:url(http://www.markeydesign.co.uk/media/social/facebook40x40.png); 
+  margin-left: 80%;
+
+
+
+}
+
+#footer-twitter {
+  background-image:url(http://do.parkrose.k12.or.us/images/social_icons_40x40/youtube_40x40.png);
+    margin-left: 80%;
+
+
+}
+
+#footer-blogspot {
+  background-image:url(https://zapier.cachefly.net/storage/services/5a1c60845ee48ad3eef7734333e44d4e.64x64.png);
+    margin-left: 80%;
+
+
+}
+
+#footer-contact {
+  color:white;
+  font-size:15px;
+  font-weight:300;
+  padding:30px 0px 10px 5%;
+}
+
+#footer-contact div {
+  display:inline;
+  font-size: 100%;
+  
+}
+
+#footer-contact a {
+  display:inline;
+  color:inherit;
+  font-size:inherit;
+  line-height:inherit;
+}
+
+#footer-copyright {
+  color:#eeeeee;
+  font-size:11px;
+  font-weight:300;
+}
+
+.footer-divider {
+  margin:0px 4px 0px 4px;
+}
+
+@media screen and (min-width:600px) and (max-width: 999px) {
+  #footer-section h3 {
+    font-size:16px;
+    font-weight:400;
+    margin:0px 0px 15px 0px;
+  }
+
+
+  #footer-section a {
+    font-size:13px;
+    font-weight:300;
+    line-height:22px;
+  }
+  
+  .footer-group {
+    margin:0px 20px 0px 0px;
+  }
+  
+  #footer-logo {
+    background-image:url(../animakitstudios.com_logo.png);
+    width:121px;
+    height:28px;
+    margin:4px 0px 37px 0px;
+  }
+  
+  #footer-join-our-team {
+    background-image:url(../img/Contactus.png);
+    width:120px;
+    height:27px;
+    margin:0px 0px 10px 0px;
+  }
+  
+  .footer-social-media-link {
+    width:16px;
+    height:16px;
+    margin:4px;
+  }
+  
+  #footer-facebook {
+    background-image:url(../img/1_picto-facebook.png);; 
+  }
+
+  #footer-twitter {
+    background-image:url(../img/Linkedin_circle.png);
+  }
+
+  #footer-mail {
+    background-image:url(../logo-mail.png);
+  }
+  
+  #footer-contact {
+    font-size:13px;
+    font-weight:300;
+  }
+  
+  #footer-contact div {
+    /* So that the address and phone numbers are on separate lines */
+    display:block;
+  }
+
+
+  #footer-contact a {
+    display:inline;
+    color:inherit;
+    font-size:inherit;
+    line-height:inherit;
+  }
+  
+  #footer-contact div:nth-last-child(2) {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  #footer-section {
+    padding:25px 0px 25px 0px;
+  }
+  
+  #footer-section h3 {
+    font-size:20px;
+    font-weight:400;
+    margin:4px 0px 10px 0px;
+  }
+
+  #footer-section a {
+    font-size:17px;
+    font-weight:300;
+    line-height:28px;
+  }
+  
+  .footer-group {
+    width:300px;
+    margin:0px 20px 20px 0px;
+  }
+  
+  .footer-group > * {
+    vertical-align:top;
+
+  }
+  
+  .footer-group-logo {
+    margin:0px 0px 20px 0px
+  }
+  
+  
+  #footer-logo {
+    background-image:url(../animakitstudios.com_logo.png);
+    width:120px;
+    height:27px;
+    margin:0px 10px 20px 0px;
+  }
+  
+  #footer-join-our-team {
+    display:inline-block;
+    margin:0px 10px 10px 0px;
+  }
+  
+  .footer-social-media-link {
+    margin:8px 4px 0px 0px;
+  }
+  
+  #footer-contact {
+    font-size:14px;
+    line-height:24px;
+    padding:10px 0px 10px 0px;
+  }
+  
+  #footer-contact span.nw {
+    display:block;
+  }
+  
+  .footer-contact-company-name {
+    font-weight:400;
+  }
+  
+  .footer-divider {
+    display:none;
+  }
+
+  #footer-contact a {
+    display:inline;
+    color:inherit;
+    font-size:inherit;
+    line-height:inherit;
+  }
+}
+.footer-social{
+    margin-left: 20%;
+    position: absolute;
+    padding-top: 10%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width:0px) and (max-width: 1070px) {
+.contactform {
+    margin: 10% 0% 5% 20%;
+    font-size: 1.7vw;  }
+.footer-social {
+    margin-left: 0%;
+    position: absolute;
+    padding-top: 0%;
+     }
+#footer-contact {
+    /*display: inline;*/
+    font-size: 3vw;
+}
+   }
+/* Retina graphics here */
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width:1000px) { 
+  #footer-logo {
+    background-image:url(../animakitstudios.com_logo.png);
+  }
+  
+  #footer-join-our-team {
+    background-image:url(../img/Contactus.png);
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width:600px) and (max-width: 999px) {
+  #footer-logo {
+    background-image:url(../animakitstudios.com_logo.png);
+  }
+  
+  #footer-join-our-team {
+    background-image:url((../img/Contactus.png);
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 599px) {
+  #footer-logo {
+    background-image:url(../animakitstudios.com_logo.png);
+  }
+  
+  #footer-join-our-team {
+    background-image:url(../img/Contactus.png);
+  }
+}

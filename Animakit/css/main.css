@@ -1,0 +1,93 @@
+
+@import url(https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Raleway);
+
+ #interrogation { display: block;
+  text-align: center;
+   margin-top: 4rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+
+#formulaire {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+.contactform {
+    margin: 2% 30% 0% 35%;
+    /*font-weight: normal;*/
+    /*font-style: italic;*/
+}
+#google_map {
+    width: 99%;
+    height: 45rem;
+    padding-left: 0.5%;
+}
+
+    form {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    input, textarea {
+        margin-top: 1rem;
+        width: 100%;
+        font-family: 'Asap', sans-serif;
+    }
+
+    input {
+        height: 1rem; width: 100%;
+        font-size: 1.6rem;
+    }
+
+    #formulaire input[type=text],
+    #formulaire input[type=email],
+    #formulaire textarea {
+        font-size: 1.6rem;
+        margin: 0.6rem 0 2rem; }
+    #validation {
+        display: block;
+        height: 5rem;
+        width: 15rem;
+        margin: 2rem auto 2rem; cursor:pointer;
+        font-family: 'Asap', sans-serif; font-weight: bold;
+        font-size: 2rem; color: #fff; background-color: #e02125; border: none; transition: 0.15s;
+    }
+
+    #validation:hover {
+        color: #e02125;
+        background-color: #fff;
+    }
+
+    #errors {
+        text-align: center; font-family: 'Asap', sans-serif; color: white; font-size: 1.5rem; line-height: 2rem; animation: attention 2s infinite;}
+    @keyframes attention { 0% {color:#fff;} 50% {color:#ffb000;} 100% {color:#fff;}}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-width:0px) and (max-width: 1070px) {
+.footer-social{
+    position: absolute;
+    margin-left: 0%;
+    padding-top: 3%;}
+.title{
+        padding-left: 30%;
+        padding-top: 10%;
+        
+    }
+   }
+
+@media (min-width: 960px) {
+    #interrogation { margin-top: 4rem; color: #fff; margin-bottom: 1rem; font-size: 2rem; }
+    #formulaire input[type=text], #formulaire input[type=email], #formulaire textarea { padding: 2rem 1.5rem; font-weight: 500; }
+    #formulaire { display: block; margin: 5% 70% 0% 5%; width: 85%;}
+    #formulaire form { display: block; width: 100%; margin: 3rem auto; }
+    #formulaire {background: url(../img/affichecontact.jpg) no-repeat; padding-left:35%;}
+
+}
+
+@media (max-width: 960px) {
+    #formulaire input[type=text], #formulaire input[type=email], #formulaire textarea { padding: 2rem 0.1rem; }
+}
